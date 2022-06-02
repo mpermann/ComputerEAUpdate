@@ -9,8 +9,8 @@
 # attribute values can be provided interactively.
 # Usage: ComputerEAUpdate.sh "Computer_EA_Name" "/path/to/csv/of/computer/serial/numbers/and/ea/values"
 
-APIUSER="user"
-APIPASS="pass"
+APIUSER="USERNAME"
+APIPASS="PASSWORD"
 JPSURL="https://jss.url:8443"
 EA_NAME=$1
 IMPORTLIST=$2
